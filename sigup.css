@@ -1,21 +1,21 @@
 * { 
     margin: 0; 
     padding: 0; 
-    box-sizing: border-box; 
-} 
- 
+    box-sizing: border-box;
+}
+    
 body { 
-    background: #f7f7f7b6; 
-    font-family: 'Courier New', Courier, monospace; 
+    background: #ffffff; 
+    font-family: 'Work Sans', Work, monospace; 
 } 
  
 main { 
-    padding: 80px 0 0; 
+    padding: 50px 0 0; 
 } 
  
 .logo { 
     display: block; 
-    width: 100px; 
+    width: 150px; 
     margin: 0 auto 64px; 
 } 
  
@@ -43,29 +43,28 @@ form {
 } 
  
 input { 
-    border-radius: 10px; 
+    border-radius: 8px; 
     outline: none; 
-    border: 1px solid #afb1b6; 
+    border: 1px solid #AFB1B6; 
     padding: 15px 5px; 
     width: 100%; 
+    height: 48px;
+
 } 
  
 button { 
     width: 100%; 
-    background: #503809; 
-    color: #ffffffee; 
-    border: #FAF0E6 1px solid; 
-    border-radius:  12px; 
-    padding: 12px 0; 
-    cursor: pointer; 
- 
-    transition-duration: 200ms ; 
+    background: #121212; 
+    color: #FFFFFF;
+    font-family: 'Work Sans', Work, monospace;  
+    border-radius:  16px; 
+    padding: 12px 20px 12px 20px; 
+    cursor: pointer;  
 } 
  
 button:active { 
-    padding: 12px 0; 
-    color: #3a2d12; 
-    border: #473112 1px solid; 
+    padding: 12px 20px 12px 20px; 
+    color: #121212; 
     cursor: pointer; 
 } 
  
@@ -77,12 +76,12 @@ button:active {
  
 .account a{ 
     font-size: 16px; 
-    color: rgb(14, 14, 218); 
+    color: #121212; 
 } 
  
 label { 
     font-size: 16; 
-    color: #4c454e; 
+    color: #61646B; 
     display: block; 
 } 
  
@@ -93,6 +92,6 @@ label {
 .input-with-icon svg{ 
     position: absolute; 
     top: 12px; 
-    right: 12px; 
+    right: 11px; 
     cursor: pointer; 
 }
